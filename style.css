@@ -1,5 +1,6 @@
 html {
     font-family: "Karla", sans-serif;
+    justify-items: center;
 }
 
 body {
@@ -8,7 +9,44 @@ body {
     flex-direction: column;
     justify-content: space-between;
     height: 100vh;
+    max-width: 31.375rem;
     margin: 0;
+}
+
+.image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img {
+    background-color: cadetblue;
+    height: 31.25rem;
+    width: 31.25rem;
+}
+
+.subtitle {
+    font-size: 0.8rem;
+    color: cadetblue;
+}
+
+@media (max-width: 28.125rem) {
+    body {
+        margin: 1rem;
+    }
+
+    img {
+        height: 18rem;
+        width: 18rem;
+    }
+}
+
+/* 🤔 */
+@media (min-width: 563px) and (max-width: 43.75rem) {
+    img {
+        height: 24rem;
+        width: 24rem;
+    }
 }
 
 .title {
@@ -32,4 +70,14 @@ a {
 footer {
     color: gray;
     margin-bottom: 1rem;
+}
+
+/* Formatação das páginas */
+
+.page-title > h1 {
+    margin: 1rem;
+}
+
+i {
+    margin-top: 1rem;
 }
