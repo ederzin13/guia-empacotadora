@@ -20,6 +20,7 @@ body {
 }
 
 img {
+    border-radius: 1rem;
     background-color: cadetblue;
     height: 31.25rem;
     width: 31.25rem;
