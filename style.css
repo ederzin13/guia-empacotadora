@@ -23,6 +23,7 @@ img {
     background-color: cadetblue;
     height: 31.25rem;
     width: 31.25rem;
+    object-fit: cover;
 }
 
 .subtitle {
@@ -60,6 +61,23 @@ img {
     align-items: center;
     justify-content: space-between;
     align-content: center;
+}
+
+/* Destacando palavras no texto */
+
+.green {
+    color: green;
+    font-weight: bold;
+}
+
+.red {
+    color: red;
+    font-weight: bold;
+}
+
+.yellow {
+    color: rgb(204, 207, 37);
+    font-weight: bold;
 }
 
 a {
