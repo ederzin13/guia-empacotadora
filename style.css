@@ -67,17 +67,18 @@ img {
 
 .green {
     color: green;
-    font-weight: bold;
 }
 
 .red {
     color: red;
-    font-weight: bold;
 }
 
 .yellow {
     color: rgb(204, 207, 37);
-    font-weight: bold;
+}
+
+span {
+    font-weight: bolder;
 }
 
 a {
